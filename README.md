@@ -1,6 +1,6 @@
 # Vision-Based Pose Estimation and Stabilization System
 
-## Overview
+## 🧭 Overview
 
 This project implements a monocular, vision-only pose estimation pipeline designed for GPS-denied environments.
 
@@ -25,7 +25,7 @@ All dependencies are listed in `requirements.txt`.
 
 ---
 
-## Problem Definition
+## 📍 Problem Definition
 
 Design a vision-only system that:
 
@@ -42,7 +42,7 @@ The system operates without GPS and relies purely on visual information.
 
 ---
 
-## System Pipeline
+## ⚙️ System Pipeline
 
 1. ORB Feature Detection  
 2. Descriptor Matching (Brute-Force Matcher)  
@@ -103,7 +103,7 @@ Output images and motion estimates are saved in the `results/` directory.
 
 ---
 
-## Conclusion
+## 🚀 Conclusion
 
 This implementation demonstrates a complete feature-based pose estimation pipeline capable of estimating relative motion and generating corrective commands in GPS-denied environments.  
 The system is modular, lightweight, and can be extended toward full 6DoF visual odometry or real-time drone stabilization.
